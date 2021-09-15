@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul id="array">
+        <!-- array elements -->
+    </ul>
+        <button id="startSort">Sort</button>
+        <input type="range" min="1" max="100" value="" name="size" id="size">
+        <select name="sortingAlgos" id="sortingAlgos">
+            <option value="0">Insertion Sort</option>
+            <option value="1">Bubble Sort</option>
+            <option value="2">Merge Sort</option>
+            <option value="3">Quick Sort</option>
+        </select>
+        <select name="speed" id="speed">
+            <option value="0.5">0.5x</option>
+            <option value="1" selected>1.0x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2.0x</option>
+            <option value="4">4.0x</option>
+        </select>
+        <button id="stopSort">Stop</button>
+        <button id="continueSort">Continue</button>
+    <script type="text/javascript" src="sort.js"></script>
+    <!-- <input type="range" name="" id=""> -->
+    
+</body>
+</html>
